@@ -31,3 +31,4 @@ After installing the tool, you can configure the database for the project by run
 sqlx database setup
 ```
 
+# learn_rust
