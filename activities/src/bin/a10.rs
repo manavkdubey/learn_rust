@@ -12,4 +12,28 @@
 // * Use a match expression to determine which message
 //   to print
 
-fn main() {}
+
+fn comp(a:i32)-> bool {
+    let result= if a>100 {
+        true
+    } 
+    else{
+        false
+    };
+    result
+}
+
+fn printresult(a: bool) {
+    
+    match a {
+        true => println!(">100"),
+        false => println!("<=100"),
+
+    }
+}
+
+
+fn main() {
+    let x=100;
+    printresult(comp(x));
+}
